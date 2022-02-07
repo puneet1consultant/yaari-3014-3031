@@ -1,0 +1,23 @@
+{
+  "name": "yaari-3014-3031",
+  "version": "1.0.0",
+  "description": "Created by Puneet for POC of Yaari jira task 3014 and 3031",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no unit test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puneet1consultant/yaari-3014-3031.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puneet1consultant/yaari-3014-3031/issues"
+  },
+  "homepage": "https://github.com/puneet1consultant/yaari-3014-3031#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
+
