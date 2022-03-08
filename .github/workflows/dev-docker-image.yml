@@ -34,7 +34,7 @@ jobs:
       env:
         ECR_REGISTRY: 746460560240.dkr.ecr.ap-south-1.amazonaws.com
         ECR_REPOSITORY: yaari-3014-3031
-        IMAGE_TAG: 0.0.1
+        IMAGE_TAG: 0.0.2
       run: |
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
